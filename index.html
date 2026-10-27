@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YourStake – Official address: yourstake.fr</title>
+    <meta name="description" content="The official address of YourStake is yourstake.fr. This domain redirects to our official website.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://yourstake.fr/">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Fallback redirect when JavaScript is disabled -->
+    <noscript><meta http-equiv="refresh" content="5; url=https://yourstake.fr/"></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-darkest: #0f212e;
+            --bg-main: #1a2c38;
+            --bg-panel: #213743;
+            --bg-hover: #2f4553;
+            --text-muted: #b1bad3;
+            --text-dim: #557086;
+            --green: #00e701;
+            --green-text: #05080a;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body { height: 100%; }
+
+        body {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+            background:
+                radial-gradient(60% 50% at 50% 0%, rgba(0, 231, 1, 0.10) 0%, rgba(0, 231, 1, 0) 70%),
+                var(--bg-darkest);
+            color: #ffffff;
+            font-family: 'Figtree', -apple-system, 'Segoe UI', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 520px;
+            padding: 40px 36px 32px;
+            border-radius: 16px;
+            background: var(--bg-main);
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+            text-align: center;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .brand svg { width: 48px; height: 48px; }
+
+        .brand-name {
+            font-family: 'Inter Tight', 'Figtree', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .brand-name span { font-weight: 600; color: var(--text-muted); }
+
+        .eyebrow {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .eyebrow strong { color: #ffffff; }
+
+        h1 {
+            margin: 10px 0 18px;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .official {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 22px;
+            border-radius: 999px;
+            background: var(--bg-darkest);
+            border: 2px solid rgba(0, 231, 1, 0.35);
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--green);
+            text-decoration: none;
+        }
+
+        .official svg { width: 18px; height: 18px; color: var(--green); }
+
+        .progress {
+            height: 6px;
+            margin: 28px 0 10px;
+            border-radius: 999px;
+            background: var(--bg-darkest);
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            border-radius: 999px;
+            background: var(--green);
+            transition: width .2s linear;
+        }
+
+        .status {
+            min-height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        .button {
+            flex: 1;
+            height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: filter .15s ease, background .15s ease;
+        }
+
+        .button-primary { flex: 2; background: var(--green); color: var(--green-text); }
+        .button-primary:hover { filter: brightness(1.1); }
+        .button-secondary { background: var(--bg-hover); color: #ffffff; }
+        .button-secondary:hover { background: #3d5564; }
+        .button-secondary[hidden] { display: none; }
+
+        .domains {
+            margin-top: 28px;
+            padding-top: 22px;
+            border-top: 1px solid var(--bg-panel);
+        }
+
+        .domains p {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-dim);
+        }
+
+        .domains ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 12px;
+            list-style: none;
+        }
+
+        .domains li {
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: var(--bg-panel);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .domains li.main { background: rgba(0, 231, 1, 0.12); color: var(--green); }
+        .domains li.current { outline: 2px solid var(--bg-hover); color: #ffffff; }
+
+        .note {
+            max-width: 520px;
+            margin-top: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            .card { padding: 32px 20px 24px; }
+            .official { font-size: 22px; padding: 12px 18px; }
+            .actions { flex-direction: column-reverse; }
+            .button, .button-primary { flex: none; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <div class="brand" aria-label="YourStake">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+                <defs>
+                    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3dff3e"/><stop offset="1" stop-color="#00a800"/></linearGradient>
+                </defs>
+                <circle cx="60" cy="60" r="56" fill="url(#chip)"/>
+                <g fill="#ffffff">
+                    <rect x="53" y="6" width="14" height="13" rx="3"/>
+                    <rect x="53" y="6" width="14" height="13" rx="3" transform="rotate(60 60 60)"/>
+                    <rect x="53" y="6" width="14" height="13" rx="3" transform="rotate(120 60 60)"/>
+                    <rect x="53" y="6" width="14" height="13" rx="3" transform="rotate(180 60 60)"/>
+                    <rect x="53" y="6" width="14" height="13" rx="3" transform="rotate(240 60 60)"/>
+                    <rect x="53" y="6" width="14" height="13" rx="3" transform="rotate(300 60 60)"/>
+                </g>
+                <circle cx="60" cy="60" r="38" fill="#0f212e"/>
+                <path d="M60 38 L77 60 L60 82 L43 60 Z" fill="url(#chip)"/>
+            </svg>
+            <div class="brand-name">your<span>stake</span></div>
+        </div>
+
+        <p class="eyebrow">You're on <strong id="current-domain">this domain</strong></p>
+        <h1>The official address of YourStake is</h1>
+
+        <a class="official" id="official-link" href="https://yourstake.fr/">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+            yourstake.fr
+        </a>
+
+        <div class="progress" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+        <p class="status" id="status" role="status">Redirecting you in 5 seconds…</p>
+
+        <div class="actions">
+            <button class="button button-secondary" id="stay-button" type="button">Stay here</button>
+            <a class="button button-primary" id="go-button" href="https://yourstake.fr/">Go to yourstake.fr</a>
+        </div>
+
+        <div class="domains">
+            <p>All our domains lead to the same place</p>
+            <ul id="domain-list">
+                <li class="main">yourstake.fr</li>
+                <li>yourstake.online</li>
+                <li>yourstake.info</li>
+                <li>yourstake.store</li>
+            </ul>
+        </div>
+    </main>
+
+    <p class="note">Bookmark <strong>yourstake.fr</strong> and always check the address bar before signing in. We will never ask for your password on any other website.</p>
+
+    <script>
+        (function () {
+            var OFFICIAL = 'https://yourstake.fr';
+            var DELAY = 5000;
+
+            // Keep the path, so yourstake.store/crash -> yourstake.fr/crash
+            var path = window.location.pathname.replace(/\/(index|404)\.html$/, '/');
+            var target = OFFICIAL + path + window.location.search + window.location.hash;
+            var host = window.location.hostname.replace(/^www\./, '');
+
+            document.getElementById('official-link').href = target;
+            document.getElementById('go-button').href = target;
+            if (host) {
+                document.getElementById('current-domain').textContent = host;
+                var items = document.querySelectorAll('#domain-list li');
+                for (var i = 0; i < items.length; i++) {
+                    if (items[i].textContent === host) { items[i].className += ' current'; }
+                }
+            }
+
+            var bar = document.getElementById('progress-bar');
+            var status = document.getElementById('status');
+            var stay = document.getElementById('stay-button');
+            var start = Date.now();
+            var cancelled = false;
+
+            var timer = setInterval(function () {
+                if (cancelled) { return; }
+                var elapsed = Date.now() - start;
+                var left = Math.max(0, Math.ceil((DELAY - elapsed) / 1000));
+                bar.style.width = Math.min(100, elapsed / DELAY * 100) + '%';
+                status.textContent = left > 0 ? 'Redirecting you in ' + left + ' second' + (left > 1 ? 's' : '') + '…' : 'Redirecting…';
+                if (elapsed >= DELAY) {
+                    clearInterval(timer);
+                    window.location.replace(target);
+                }
+            }, 100);
+
+            stay.addEventListener('click', function () {
+                cancelled = true;
+                clearInterval(timer);
+                bar.style.width = '0%';
+                status.textContent = 'Automatic redirect cancelled.';
+                stay.hidden = true;
+            });
+        })();
+    </script>
+</body>
+</html>

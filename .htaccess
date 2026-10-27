@@ -1,0 +1,3 @@
+# Apache hosting: serve the redirect page for every URL, so yourstake.store/anything works
+ErrorDocument 404 /index.html
+DirectoryIndex index.html
